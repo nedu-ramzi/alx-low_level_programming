@@ -10,7 +10,6 @@ int main(void)
 
 	{
 		putchar(ch);
-		putchar("\n");
 		ch++;
 	}
 	return (0);
