@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-  * convert_day - converts day of month to day of year, without accounting
+  * print_remaining_days - converts day of month to day of year,
+  * without accounting
   * for leap year
   * @month: month in number format
   * @day: day of month
@@ -16,7 +17,7 @@ void print_remaining_days(int month, int day, int year)
 			day++;
 		}
 		printf("Day of the year: %d\n", day);
-		printf("Remaining days: %d\n", 366 - day );
+		printf("Remaining days: %d\n", 366 - day);
 	}
 	else
 	{
@@ -24,7 +25,7 @@ void print_remaining_days(int month, int day, int year)
 		{
 			printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 		}
-		else 
+		else
 		{
 			printf("Day of the year: %d\n", day);
 			printf("Remaining days: %d\n", 365 - day);
