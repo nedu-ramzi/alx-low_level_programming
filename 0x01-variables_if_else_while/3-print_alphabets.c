@@ -19,4 +19,5 @@ int main(void)
 		putchar(up);
 		up++;
 	}
+	return (0);
 }
