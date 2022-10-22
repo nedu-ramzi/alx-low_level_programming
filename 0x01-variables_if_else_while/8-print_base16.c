@@ -7,16 +7,18 @@
 int main(void)
 {
 	int i = 0;
+	char j = 'f';
 
 	while (i < 10)
 	{
-		if (i > 9)
-		{
-			char hex = 'abcdef';
-
-			putchar("%d%c", i, hex + '0');
-		}
+		putchar('i' + '0');
 		i++;
 	}
+	while (j <= 'f')
+	{
+		putchar(j);
+		j++;
+	}
+	putchar('\n');
 	return (0);
 }
