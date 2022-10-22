@@ -3,7 +3,8 @@
   * main - print all lowercase alphabet that is not q and e
   * Return: Always 0
   */
-int main(void){
+int main(void)
+{
 	char lower = 'a';
 
 	while (lower <= 'z')
@@ -12,7 +13,7 @@ int main(void){
 		{
 			putchar(lower);
 		}
-		lower ++;
+		lower++;
 	}
 	return (0);
 }
