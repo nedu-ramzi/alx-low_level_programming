@@ -7,11 +7,11 @@
 int main(void)
 {
 	int i = 0;
-	char j = 'f';
+	char j = 'a';
 
 	while (i < 10)
 	{
-		putchar('i' + '0');
+		putchar(i + '0');
 		i++;
 	}
 	while (j <= 'f')
