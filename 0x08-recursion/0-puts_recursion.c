@@ -7,12 +7,6 @@
   */
 void _puts_recursion(char *s)
 {
-	*s = "";
 	_putchar(*s);
 }
 
-int main(void)
-{
-	_puts_recursion("abeg");
-	return (0);
-}
