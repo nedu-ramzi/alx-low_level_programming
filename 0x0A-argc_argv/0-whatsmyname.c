@@ -5,7 +5,7 @@
   */
 
 
-int main(int argc, char *argv[])
+int whatsmyname(int argc, char *argv[])
 {
 	printf("\n",argv[0]);
 }
