@@ -10,5 +10,7 @@
 
 int whatsmyname(int argc, char *argv[])
 {
-	printf("\n",argv);
+	printf("%s\n",argv);
+
+	return (0);
 }
