@@ -4,4 +4,4 @@
 	#define SUM(x, y) ((X) + (Y))
 
 
-#endif
+#endif /* SUM_MACRO_H */
