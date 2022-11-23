@@ -10,16 +10,11 @@
   * the cmp function does not return 0, or -1 if no match is found
   * or size is negative
   */
-int int_index(int *array, int size, int (*cmp)(int))
+terator(int *array, size_t size, void (*action)(int))
 {
-	int i;
+	size_t i;
 
-	if (array && cmp)
-	{
+	if (array && action)
 		for (i = 0; i < size; i++)
-		{
-			if (cmp(array[i]) != 0)
-				return (i);
-		}
-	}
+			action(array[i]);
 }
