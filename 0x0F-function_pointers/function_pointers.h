@@ -1,5 +1,5 @@
-#ifndef FUNCTION_POINTERS_H
-#define FUNCTION_POINTERS_H
+#ifndef FUNCTION_POINTERS
+#define FUNCTION_POINTERS
 
 #include <stdio.h>
 
@@ -9,4 +9,4 @@ int int_index(int *array, int size, int (*cmp)(int));
 int _putchar(char);
 
 
-#endif
+#endif /* FUNCTION_POINTERS*/
